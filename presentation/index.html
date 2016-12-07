@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pendulum Presentation</title>
+
+    <!-- Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body ng-controller="Controller">
+    <div class="container text-center" ng-if="loading">
+        <h1>Setting everything up</h1>
+        <p class="lead">
+            Crunching numbers...<br>
+            Downloading the internet...<br>
+            Sharing webcam to wiki leaks...<br>
+        </p>
+    </div>
+    <div class="container" ng-if="!loading">
+        <img ng-src="{{ image }}"/>
+    </div>
+
+    <!-- jQuery -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Angular -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

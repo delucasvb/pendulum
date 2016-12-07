@@ -1,0 +1,26 @@
+{
+  "name": "pendulum-presentation",
+  "version": "1.0.0",
+  "description": "Pendulum's presentation client",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delucasvb/pendulum"
+  },
+  "author": "Lucas Vander Beken",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/delucasvb/pendulum/issues"
+  },
+  "homepage": "https://github.com/delucasvb/pendulum",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-resource": "^1.5.9",
+    "bootstrap": "^3.3.7",
+    "electron": "latest",
+    "jquery": "^3.1.1"
+  }
+}
