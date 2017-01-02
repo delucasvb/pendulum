@@ -1,8 +1,7 @@
 package com.realbadapps.pendulum.server.game;
 
 public class GameConfiguration {
-    private String audio;
-    private String[] images;
+    private Game[] games;
 
     public GameConfiguration() {}
 
@@ -10,19 +9,11 @@ public class GameConfiguration {
         Getters & setters
      */
 
-    public String getAudio() {
-        return audio;
+    public Game[] getGames() {
+        return games;
     }
 
-    public void setAudio(String audio) {
-        this.audio = audio;
-    }
-
-    public String[] getImages() {
-        return images;
-    }
-
-    public void setImages(String[] images) {
-        this.images = images;
+    public void setGames(Game[] games) {
+        this.games = games;
     }
 }

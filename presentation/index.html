@@ -8,29 +8,93 @@
     <title>Pendulum Presentation</title>
 
     <!-- Bootstrap -->
+    <link href="node_modules/tether/dist/css/tether.css" rel="stylesheet">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body ng-controller="Controller">
-    <div class="container text-center" ng-if="loading">
-        <h1>Setting everything up</h1>
-        <p class="lead">
-            Crunching numbers...<br>
-            Downloading the internet...<br>
-            Sharing webcam to wiki leaks...<br>
-        </p>
-    </div>
-    <div class="container" ng-if="!loading">
-        <img ng-src="{{ image }}"/>
-    </div>
+    <link href="main.css" rel="stylesheet">
 
     <!-- jQuery -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Angular -->
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-resource/angular-resource.min.js"></script>
     <script src="app.js"></script>
+</head>
+
+<body ng-controller="Controller" ng-style="type == 'video' && {'background-color':'black'}" class="text-xs-center">
+    <div class="container wrapper" ng-if="loading" style="background-color: slategray;color: azure">
+        <h1 style="margin-top: 100px;">Setting everything up</h1>
+    </div>
+    <div class="wrapper">
+        <div class="stage" ng-if="!loading">
+            <!-- Picture flash -->
+            <img ng-src="{{ content }}" ng-if="type == 'image'" style="max-height: 1080px;" />
+            <span ng-if="type == 'text'">{{ content }}</span>
+            <video ng-src="{{ content }}" ng-if="type == 'video'" width="100%" autoplay></video>
+
+            <!-- Deal or no deal -->
+            <div ng-if="type == 'deal'">
+                <div class="row" style="margin: 10px;">
+                    <div class="col-xs-1">
+                        <ul class="list-group">
+                            <li class="list-group-item text-xs-center" ng-repeat="point in board | orderBy: 'value'" style="padding: 3px;" ng-class="{'active': !point.hidden}">
+                                {{ point.value }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-11">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3" ng-repeat="point in points" ng-hide="point.hidden">
+                                <a href ng-click="cardSelected($index)">
+                                    <div class="card card-inverse card-primary text-xs-center">
+                                        <div class="card-block">
+                                            <h1 class="card-title" style="font-size: 5rem;">{{ $index + 1 }}</h1>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <progress class="progress" value="{{ progress }}" max="100" ng-if="showProgress" style="position:absolute;bottom:0px;width: 100%"></progress>
+
+    <!-- Deal or no deal modals -->
+    <div class="modal fade" id="cardSelectedModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">You selected box {{ box }}</h4>
+                </div>
+                <div class="modal-body">
+                    <p>It contained...</p>
+                    <p class="lead text-xs-center">{{ point }} points!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="bankerModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">The Banker</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="lead text-xs-center">The banker called and offers you {{ offer }}.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

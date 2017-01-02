@@ -1,6 +1,6 @@
 package com.realbadapps.pendulum.server;
 
-import com.realbadapps.pendulum.server.game.ConfigFileParser;
+import com.realbadapps.pendulum.server.game.serialization.ConfigFileParser;
 import com.realbadapps.pendulum.server.game.GameService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

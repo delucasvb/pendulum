@@ -1,0 +1,1241 @@
+{
+	"games": [
+		{
+			"type": "picture_flash",
+			"audio": {
+				"location": "/Users/Lucas/Pictures/Quiz 2017/Slumberjack - RA.wav",
+				"bpm": 160
+			},
+			"lights": [
+				{
+					"type": "room",
+					"frames": 16,
+					"state": {"id": 1, "state": {"hue": 51000}}
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 8,
+					"states": [
+						{"id": 1, "state": {"hue": 20000}},
+						{"id": 2, "state": {"hue": 20000}},
+						{"id": 3, "state": {"hue": 20000}},
+						{"id": 6, "state": {"hue": 12000}}
+					]
+				},
+				{
+					"type": "room",
+					"frames": 8,
+					"state": {"id": 1, "state": {"hue": 59000}}
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 12,
+					"state": {"id": 1, "state": {"hue": 43000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"on": false}}
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 3, "state": {"hue": 33500}}]
+				},
+				{
+					"type": "spots",
+					"frames": 15,
+					"states": [{"id": 3, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 3, "state": {"hue": 33500}}]
+				},
+				{
+					"type": "spots",
+					"frames": 11,
+					"states": [{"id": 3, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [
+						{"id": 3, "state": {"hue": 20000}}
+					]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [
+						{"id": 3, "state": {"on": false}},
+						{"id": 1, "state": {"hue": 12000}}
+					]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [
+						{"id": 1, "state": {"on": false}},
+						{"id": 2, "state": {"hue": 6000}}
+					]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [
+						{"id": 2, "state": {"on": false}}
+					]
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [
+						{"id": 2, "state": {"hue": 0}},
+						{"id": 6, "state": {"hue": 0}}
+					]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 5000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 10000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 15000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 20000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 25000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 30000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 35000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [
+						{"id": 2, "state": {"hue": 47000}},
+						{"id": 6, "state": {"hue": 47000}}
+					]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 45500}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 44000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 42500}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 41000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 39500}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 38000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 3,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 64000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 60000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 56000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 52000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 48000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 44000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 40000}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"on": false}}
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 50000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 25000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 4000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 45000}}]
+				},
+				
+				
+				
+				{
+					"type": "room",
+					"frames": 40,
+					"state": {"id": 1, "state": {"on": false}}
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"hue": 0}}
+				},
+				{
+					"type": "room",
+					"frames": 4,
+					"state": {"id": 1, "state": {"on": false}}
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 60000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 58000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 56000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 54000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 52000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 50000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"hue": 48000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 2, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 6, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 6, "state": {"on": false}}]
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 4000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 25000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 50000}}]
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 64,
+					"state": {"id": 1, "state": {"on": false}}
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [
+						{"id": 1, "state": {"hue": 20000}},
+						{"id": 2, "state": {"hue": 20000}},
+						{"id": 3, "state": {"hue": 20000}},
+						{"id": 6, "state": {"hue": 12000}}
+					]
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 16,
+					"state": {"id": 1, "state": {"hue": 1300, "sat": 200}}
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 16,
+					"state": {"id": 1, "state": {"hue": 44000}}
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 16,
+					"state": {"id": 1, "state": {"hue": 46000, "bri": 100}}
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 12,
+					"state": {"id": 1, "state": {"on": false}}
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"on": false}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 0}}]
+				},
+				{
+					"type": "spots",
+					"frames": 1,
+					"states": [{"id": 1, "state": {"hue": 45000}}]
+				},
+
+
+
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 4000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 25000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 50000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 45000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 4000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 25000}}]
+				},
+				{
+					"type": "spots",
+					"frames": 16,
+					"states": [{"id": 6, "state": {"hue": 50000}}]
+				},
+
+
+
+				{
+					"type": "room",
+					"frames": 12,
+					"state": {"id": 1, "state": {"on": false}}
+				}
+			],
+			"windows": [
+				{
+					"start": 208,
+					"end": 272
+				},
+				{
+					"start": 336,
+					"end": 496
+				},
+				{
+					"start": 624,
+					"end": 704
+				}
+			],
+			"scenes": [
+				{
+					"type": "video",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161204_232120.mp4"
+				},
+				{
+					"type": "video",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161218_214201.mp4"
+				},
+				{
+					"type": "video",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161218_214626.mp4"
+				},
+				{
+					"type": "image",
+					"frames": 32,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/uitleg p1.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 32,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/uitleg p2.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 12,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/uitleg p3.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/10.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/9.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/8.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/7.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/6.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/5.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/4.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/3.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/2.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/1.png"
+				},
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Shaggy.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Wile.E-Coyote-Picture.gif"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Smithers.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Shaggy.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Wile.E-Coyote-Picture.gif"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Smithers.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Shaggy.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Misty.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Dagobert.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Bubbles.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Misty.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Dagobert.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Bubbles.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Misty.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Tien.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Quagmire.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Janneman Robinson.gif"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Tien.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Quagmire.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Janneman Robinson.gif"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Tien.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Barney.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Shaggy.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Wile.E-Coyote-Picture.gif"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Smithers.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Misty.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Dagobert.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Bubbles.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Tien.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Quagmire.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Cartoon figuren/Janneman Robinson.gif"},
+
+				{
+					"type": "image",
+					"frames": 40,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/antwoord.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 8,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/nog eens.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/8.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/7.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/6.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/5.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/4.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/3.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/2.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/1.png"
+				},
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Dexter.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Smurfin.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Morty.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Dexter.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Smurfin.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Morty.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Dexter.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Pink Panther.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Bugs Bunny.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Jerry.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Pink Panther.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Bugs Bunny.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Jerry.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Pink Panther.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Spongebob.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Popeye.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Arnold.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Spongebob.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Popeye.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Arnold.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Spongebob.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Woody Woodpecker.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Dexter.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Smurfin.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Morty.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Pink Panther.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Bugs Bunny.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Jerry.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Spongebob.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Popeye.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/Ronde 2/Arnold.png"},
+
+				{
+					"type": "image",
+					"frames": 64,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Cartoonesque/antwoord.png",
+					"showProgress": true
+				},
+				{
+					"type": "video",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161227_243832.mp4"
+				},
+				{
+					"type": "video",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161227_244143.mp4"
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/uitleg p1.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/uitleg p2.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 12,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/uitleg p3.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/10.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/9.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/8.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/7.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/6.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/5.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/4.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/3.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/2.png"
+				},
+				{
+					"type": "image",
+					"frames": 2,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/1.png"
+				},
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Barcelona - Carly Rae Jepsen.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Manchester United - Demi Lovato.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Barcelona - Carly Rae Jepsen.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Manchester United - Demi Lovato.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Selena Gomez - KAA Gent.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ariana Grande - Juventus.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Selena Gomez - KAA Gent.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ariana Grande - Juventus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Anderlecht - Lana Del Rey.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ellie Goulding - Chelsea.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Anderlecht - Lana Del Rey.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ellie Goulding - Chelsea.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Rihanna - Portugal.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Barcelona - Carly Rae Jepsen.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Manchester United - Demi Lovato.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Selena Gomez - KAA Gent.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ariana Grande - Juventus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Anderlecht - Lana Del Rey.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ellie Goulding - Chelsea.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Barcelona - Carly Rae Jepsen.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Manchester United - Demi Lovato.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Barcelona - Carly Rae Jepsen.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Manchester United - Demi Lovato.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Selena Gomez - KAA Gent.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ariana Grande - Juventus.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Selena Gomez - KAA Gent.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ariana Grande - Juventus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Anderlecht - Lana Del Rey.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ellie Goulding - Chelsea.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Anderlecht - Lana Del Rey.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ellie Goulding - Chelsea.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+
+
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Rihanna - Portugal.png"},
+				{"type": "image","frames": 4,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Katy Perry - Galatasaray.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Barcelona - Carly Rae Jepsen.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Manchester United - Demi Lovato.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Christina Aguilera - Real Madrid.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Selena Gomez - KAA Gent.png"},
+
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ariana Grande - Juventus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Bayern Munchen - Miley Cyrus.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Anderlecht - Lana Del Rey.png"},
+				{"type": "image","frames": 1,"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/Mashups/Ellie Goulding - Chelsea.png"},
+
+				{
+					"type": "image",
+					"frames": 80,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/Battle of the Sexes/antwoord.png",
+					"showProgress": true
+				}
+			]
+		},
+		{
+			"type": "intro",
+			"scenes": [
+				{
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161231_132632.mp4",
+					"length": 6000
+				},
+				{
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161231_133443.mp4",
+					"length": 6000
+				}
+			]
+		},
+		{
+			"type": "deal_or_no_deal",
+			"rounds": 2
+		},
+		{
+			"type": "picture_flash",
+			"audio": {
+				"location": "/Users/Lucas/Pictures/Quiz 2017/Face of the planet.wav",
+				"bpm": 128
+			},
+			"lights": [
+				{
+					"type": "spots",
+					"frames": 0,
+					"states": [{"id": 6, "state": {"hue": 55000}}]
+				}
+			],
+			"windows": [
+				{
+					"start": 0,
+					"end": 700
+				}
+			],
+			"scenes": [
+				{
+					"type": "video",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161231_132739.mp4"
+				},
+				{
+					"type": "video",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/LEGEND_20161231_162234.mp4"
+				},
+				{
+					"type": "image",
+					"frames": 8,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Intro/uitleg p1.png"
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Intro/uitleg p2.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 8,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Intro/uitleg p3.png"
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Intro/uitleg p4.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Intro/uitleg p5.png",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Duomo Milan.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Rio de Janeiro.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Barcelona.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Sydney.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Cairo.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Las Vegas.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/London.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Bruges.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Bangkok.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Shanghai.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Tokyo.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/New York.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Moscow.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Sao Paulo.jpg",
+					"showProgress": true
+				},
+				{
+					"type": "image",
+					"frames": 16,
+					"content": "/Users/Lucas/Pictures/Quiz 2017/The Amazing Race/Afbeeldingen/Taj Mahal.jpg",
+					"showProgress": true
+				}
+			]
+		}
+	]
+}

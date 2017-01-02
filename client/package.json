@@ -1,8 +1,14 @@
 {
-  "name": "pendulum-presentation",
+  "name": "pendulum-client",
   "version": "1.0.0",
-  "description": "Pendulum's presentation client",
-  "main": "main.js",
+  "description": "Pendulum's client to participate in games",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -p 8000 -c-1",
+    "pretest": "npm install",
+    "preupdate-webdriver": "npm install"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/delucasvb/pendulum"
@@ -16,9 +22,8 @@
   "dependencies": {
     "angular": "^1.5.9",
     "angular-resource": "^1.5.9",
-    "bootstrap": "^4.0.0-alpha.5",
-    "electron": "latest",
-    "jquery": "^3.1.1",
-    "tether": "^1.4.0"
+    "bootstrap": "^3.3.7",
+    "http-server": "^0.9.0",
+    "jquery": "^3.1.1"
   }
 }
